@@ -5,11 +5,11 @@ import java.util.List;
 import java.util.stream.IntStream;
 import static java.util.stream.Collectors.toList;
 
-public class Stream1 {
+public class Stream2 {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 20,21,23,25,26,27,31);
         System.out.println(numbers.stream()
-                .filter(Stream1::isPrime)
+                .filter(Stream2::isPrime)
                 .collect(toList()));
     }
     public static boolean isPrime(int number) {
