@@ -11,6 +11,7 @@ public class Swap3Numbers {
             y = x- (y+ z);
             z = x- (y+ z);
             x = x- (y+ z);
+
            // Printing values of numbers after swapping in order to see the change
             System.out.println("Original values before swapping are:");
             System.out.println("Value of  is x " +x);
