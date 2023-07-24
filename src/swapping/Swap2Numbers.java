@@ -9,6 +9,7 @@ public class Swap2Numbers {
        // int temp = x;
        // x = y;
        // y = temp;
+
         //whithout temp variable
         x=x+y;
         y=x-y;
