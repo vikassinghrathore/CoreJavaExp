@@ -5,7 +5,7 @@ public class Swap3NumbersTemp {
         int x = 10;
         int y = 20;
         int z = 30;
-        // Printing values of numbers before swapping in order to see the change
+        // Printing values of numbers before swapping
         System.out.println("Original values before swapping are:");
         System.out.println("Value of  is x " + x);
         System.out.println("Value of y is " + y);
@@ -16,7 +16,7 @@ public class Swap3NumbersTemp {
            y=z;
            z=temp;
 
-        // Printing values of numbers after swapping in order to see the change
+        // Printing values of numbers after swapping
         System.out.println("Original values before swapping are:");
         System.out.println("Value of  is x " + x);
         System.out.println("Value of y is " + y);
