@@ -23,6 +23,8 @@ class EmployeeList {
                                                       .collect(Collectors.toList());
         System.out.println("Sorted in ascending order by age and name: ");
         sortedlist.forEach(System.out::println);
+       // sortedlist.forEach(employee -> System.out.println("Emp ID: " + employee.id + ", Name: " + employee.name + ", Age: " + employee.age ));
+
     }
     }
 
