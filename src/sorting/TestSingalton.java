@@ -8,7 +8,6 @@ public class TestSingalton {
         DateUtil d2=DateUtil.getInstance();
         System.out.println("hashCode : " + d1.hashCode());
         System.out.println("hashCode :" + d2.hashCode());
-
         //reflection apis
         DateUtil object1 = DateUtil.getInstance();
         DateUtil object2 = null;
